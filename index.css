@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+  background-color: aqua;
+  text-align: right;
+  padding: 16px 14px;
+}
+li {
+  font-family: " sans-serif";
+  display: inline;
+}
+li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+li a:hover {
+  background-color: #111;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+a[href="www.google.com"] {
+  background-color: rgb(0, 255, 17);
+}
+.ikram {
+  margin: 40px;
+  color: rgb(14, 137, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gold;
+}
+.sucess {
+  column-count: 3;
+  column-gap: 30px;
+  margin: 40px;
+}
+.pic {
+  display: flex;
+  padding: 30px;
+}
+img {
+  padding: 20px;
+  width: 500px;
+}
